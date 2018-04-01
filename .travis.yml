@@ -1,0 +1,9 @@
+branches:
+  only:
+    - master
+sudo: false
+language: ruby
+rvm:
+  - 2.3.3
+script: jekyll build
+after_success: s3_website push

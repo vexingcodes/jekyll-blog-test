@@ -2,3 +2,4 @@ s3_id: <%= ENV['S3_ACCESS_KEY_ID'] %>
 s3_secret: <%= ENV['S3_SECRET_KEY'] %>
 s3_bucket: scoresomecrack.com
 s3_endpoint: us-west-2
+cloudfront_distribution_id: E2AVY3Y39HGPLQ

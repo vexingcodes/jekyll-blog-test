@@ -3,3 +3,5 @@ s3_secret: <%= ENV['S3_SECRET_KEY'] %>
 s3_bucket: scoresomecrack.com
 s3_endpoint: us-west-2
 cloudfront_distribution_id: E2AVY3Y39HGPLQ
+cloudfront_wildcard_invalidation: true
+cloudfront_invalidate_root: true

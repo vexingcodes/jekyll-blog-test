@@ -17,12 +17,12 @@
   {% endfor %}
   <p>
 {% endif %}
-</ul>
+<h3>Post a comment!</h3>
 <form method="POST" action="https://api.staticman.net/v2/entry/vexingcodes/jekyll-blog-test/master/comments">
   <input name="options[redirect]" type="hidden" value="https://scoresomecrack.com">
   <input name="options[slug]" type="hidden" value="{{ page.slug }}">
-  <label><input name="fields[name]" type="text">Name</label>
-  <label><input name="fields[email]" type="email">E-mail</label>
-  <label><textarea name="fields[message]"></textarea>Message</label>
+  <label><input name="fields[name]" type="text">Name</label><br>
+  <label><input name="fields[email]" type="email">E-mail</label><br>
+  <label><textarea name="fields[message]"></textarea>Message</label><br>
   <button type="submit">Go!</button>
 </form>

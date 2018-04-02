@@ -55,3 +55,4 @@ exclude:
   - changelog.md
   - "*.Rmd"
   - .git*
+  - package-lock.json

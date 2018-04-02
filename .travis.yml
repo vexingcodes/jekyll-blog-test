@@ -8,7 +8,8 @@ rvm:
   - 2.3.3
 script: bundle exec jekyll build
 after_success:
-  - "find _site/ -type f \
-     ! -iname 'index.html' ! -iname '404.html' -iname '*.html' -print0 | \
-     while read -d $'\0' f; do mv "$f" "${f%.html}"; done"
+  - >-
+    find _site/ -type f
+    ! -iname 'index.html' ! -iname '404.html' -iname '*.html' -print0 |
+    while read -d $'\0' f; do mv "$f" "${f%.html}"; done"
   - bundle exec s3_website push

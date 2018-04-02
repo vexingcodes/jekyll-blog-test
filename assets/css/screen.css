@@ -684,6 +684,7 @@ The first (most recent) post in the list is styled to be bigger than the others 
 .post-full-content ol,
 .post-full-content dl,
 .post-full-content pre,
+.post-full-content figure,
 .post-full-content blockquote,
 .post-full-comments,
 .footnotes {
@@ -799,6 +800,10 @@ Usage (In Ghost editor):
     font-weight: 400!important;
     background: var(--whitegrey);
     border-radius: 3px;
+}
+
+.post-full-content figure {
+    max-width: 100%;
 }
 
 .post-full-content pre {

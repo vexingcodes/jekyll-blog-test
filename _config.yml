@@ -25,7 +25,7 @@ twitter: vexingcodes # replace by your username
 facebook: vexingcodes # replace by your username
 
 # Permalinks
-permalink: /:title
+permalink: /:title/
 # permalink: /author/:author
 # permalink: /tag/:tag
 
